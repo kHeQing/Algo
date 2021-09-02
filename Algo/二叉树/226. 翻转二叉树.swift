@@ -8,17 +8,48 @@
 
 class Solution {
     
+    // 前序遍历
+//    func invertTree(_ root: TreeNode?) -> TreeNode? {
+//
+//        guard let root = root else { return nil}
+//
+//        let temp = root.left
+//        root.left = root.right
+//        root.right = temp
+//
+//        let _ = invertTree(root.left)
+//        let _ = invertTree(root.right)
+//
+//        return root
+//    }
+    
+    // 层序遍历
     func invertTree(_ root: TreeNode?) -> TreeNode? {
 
         guard let root = root else { return nil}
         
-        let temp = root.left
-        root.left = root.right
-        root.right = temp
+        var queue = [TreeNode]()
+        queue.append(root)
         
-        let _ = invertTree(root.left)
-        let _ = invertTree(root.right)
+        while queue.count > 0 {
+            
+            let node = queue.remove(at: 0)
+            
+            let temp = node.left
+            node.left = node.right
+            node.right = temp
+            
+            if let left = node.left {
+                queue.append(left)
+            }
+            
+            if let right = node.right {
+                queue.append(right)
+            }
+            
+        }
         
         return root
     }
+    
 }
