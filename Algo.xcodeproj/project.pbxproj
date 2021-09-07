@@ -10,6 +10,8 @@
 		2D80DC2E26E1210D0058EEA1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D80DC2D26E1210D0058EEA1 /* main.swift */; };
 		2D80DC3526E1214F0058EEA1 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D80DC3426E1214F0058EEA1 /* TreeNode.swift */; };
 		2D80DC3726E123100058EEA1 /* 226. 翻转二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D80DC3626E123100058EEA1 /* 226. 翻转二叉树.swift */; };
+		3F236F9B26E76F0B006D1BCE /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F236F9A26E76F0B006D1BCE /* ListNode.swift */; };
+		3F236F9D26E770B8006D1BCE /* 206.翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F236F9C26E770B8006D1BCE /* 206.翻转链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		2D80DC2D26E1210D0058EEA1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2D80DC3426E1214F0058EEA1 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		2D80DC3626E123100058EEA1 /* 226. 翻转二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "226. 翻转二叉树.swift"; sourceTree = "<group>"; };
+		3F236F9A26E76F0B006D1BCE /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		3F236F9C26E770B8006D1BCE /* 206.翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206.翻转链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				2D80DC2D26E1210D0058EEA1 /* main.swift */,
+				3F236F9926E76E96006D1BCE /* 链表 */,
 				2D80DC3826E123BF0058EEA1 /* 二叉树 */,
 			);
 			path = Algo;
@@ -74,6 +79,15 @@
 				2D80DC3626E123100058EEA1 /* 226. 翻转二叉树.swift */,
 			);
 			path = "二叉树";
+			sourceTree = "<group>";
+		};
+		3F236F9926E76E96006D1BCE /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				3F236F9A26E76F0B006D1BCE /* ListNode.swift */,
+				3F236F9C26E770B8006D1BCE /* 206.翻转链表.swift */,
+			);
+			path = "链表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D80DC2E26E1210D0058EEA1 /* main.swift in Sources */,
+				3F236F9D26E770B8006D1BCE /* 206.翻转链表.swift in Sources */,
 				2D80DC3726E123100058EEA1 /* 226. 翻转二叉树.swift in Sources */,
 				2D80DC3526E1214F0058EEA1 /* TreeNode.swift in Sources */,
+				3F236F9B26E76F0B006D1BCE /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
