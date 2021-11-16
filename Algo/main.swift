@@ -10,3 +10,4 @@ import Foundation
 
 print("Hello, World!")
 
+print(SortedSquares().sortedSquares([-3,-2,0,1,5]))

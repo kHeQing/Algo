@@ -8,46 +8,43 @@
 
 class 翻转链表 {
     
-    // 迭代方法
+    // 1. 迭代方法 （头插法）
     func reverseList(_ head: ListNode?) -> ListNode? {
         
         guard let head = head else { return nil }
         
-        // 前节点
-        var pre: ListNode? = nil
-        // 当前节点
+        // 新的头节点
+        var newHead: ListNode? = nil
+        // 遍历的指针节点
         var current: ListNode? = head
-        // 临时节点
-        var temp: ListNode? = nil
         
         while current != nil {
             // 临时节点，暂存当前节点的下一个节点，用于后移
-            temp = current?.next
-            // 将当前节点的next 指向前节点
-            current?.next = pre
-            // 前节点后移
-            pre = current
+            let temp = current?.next
+            // 将当前节点的next 指向新的头节点
+            current?.next = newHead
+            // 新的头节点前移
+            newHead = current
             // 当前节点后移
             current = temp
         }
         
-        return pre
+        return newHead
     }
     
-    // 递归方法
+    // 2. 递归方法
     func reverseList2(_ head: ListNode?) -> ListNode? {
-        return reverse(nil, head)
-    }
-    
-    func reverse(_ pre: ListNode?, _ current: ListNode?) -> ListNode? {
         
-        guard let current = current else {
-            return pre
+        // head 不存在 || head.next 不存在 返回head
+        guard let head = head, let next = head.next else {
+            return head
         }
         
-        let next = current.next
-        current.next = pre
+        let last = reverseList2(next)
+        next.next = head
+        head.next = nil
         
-        return reverse(current, next)
+        return last
     }
+    
 }
