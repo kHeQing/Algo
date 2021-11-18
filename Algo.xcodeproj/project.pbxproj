@@ -21,6 +21,11 @@
 		3F236FF426F1CA38006D1BCE /* 翻转字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F236FF326F1CA38006D1BCE /* 翻转字符串.swift */; };
 		3F236FF926F35963006D1BCE /* 有序数组合并.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F236FF826F35962006D1BCE /* 有序数组合并.swift */; };
 		3F4B2A4827425E2400FD5276 /* 146. LRU 缓存机制.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B2A4727425E2300FD5276 /* 146. LRU 缓存机制.swift */; };
+		3F4B2A4A2744E10500FD5276 /* 删除节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B2A492744E10500FD5276 /* 删除节点.swift */; };
+		3F4B2A4C2744EE1F00FD5276 /* 24. 两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B2A4B2744EE1E00FD5276 /* 24. 两两交换链表中的节点.swift */; };
+		3F4B2A4E2744FC4300FD5276 /* 19.删除链表的倒数第N个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B2A4D2744FC4300FD5276 /* 19.删除链表的倒数第N个节点.swift */; };
+		3F4B2A50274504D700FD5276 /* 面试题 02.07. 链表相交.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B2A4F274504D600FD5276 /* 面试题 02.07. 链表相交.swift */; };
+		3F4B2A5227450AF800FD5276 /* 142. 环形链表 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B2A5127450AF800FD5276 /* 142. 环形链表 II.swift */; };
 		3F90666C273268F0006B3406 /* 77. 组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90666B273268F0006B3406 /* 77. 组合.swift */; };
 		3F90666E27328673006B3406 /* 216. 组合总和 III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90666D27328673006B3406 /* 216. 组合总和 III.swift */; };
 		3F9066702733C071006B3406 /* 17. 电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90666F2733C070006B3406 /* 17. 电话号码的字母组合.swift */; };
@@ -56,6 +61,11 @@
 		3F236FF326F1CA38006D1BCE /* 翻转字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "翻转字符串.swift"; sourceTree = "<group>"; };
 		3F236FF826F35962006D1BCE /* 有序数组合并.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "有序数组合并.swift"; sourceTree = "<group>"; };
 		3F4B2A4727425E2300FD5276 /* 146. LRU 缓存机制.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "146. LRU 缓存机制.swift"; sourceTree = "<group>"; };
+		3F4B2A492744E10500FD5276 /* 删除节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "删除节点.swift"; sourceTree = "<group>"; };
+		3F4B2A4B2744EE1E00FD5276 /* 24. 两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24. 两两交换链表中的节点.swift"; sourceTree = "<group>"; };
+		3F4B2A4D2744FC4300FD5276 /* 19.删除链表的倒数第N个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19.删除链表的倒数第N个节点.swift"; sourceTree = "<group>"; };
+		3F4B2A4F274504D600FD5276 /* 面试题 02.07. 链表相交.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 02.07. 链表相交.swift"; sourceTree = "<group>"; };
+		3F4B2A5127450AF800FD5276 /* 142. 环形链表 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "142. 环形链表 II.swift"; sourceTree = "<group>"; };
 		3F90666B273268F0006B3406 /* 77. 组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "77. 组合.swift"; sourceTree = "<group>"; };
 		3F90666D27328673006B3406 /* 216. 组合总和 III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "216. 组合总和 III.swift"; sourceTree = "<group>"; };
 		3F90666F2733C070006B3406 /* 17. 电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17. 电话号码的字母组合.swift"; sourceTree = "<group>"; };
@@ -134,6 +144,11 @@
 			children = (
 				3F236F9A26E76F0B006D1BCE /* ListNode.swift */,
 				3F236F9C26E770B8006D1BCE /* 206.翻转链表.swift */,
+				3F4B2A492744E10500FD5276 /* 删除节点.swift */,
+				3F4B2A4B2744EE1E00FD5276 /* 24. 两两交换链表中的节点.swift */,
+				3F4B2A4D2744FC4300FD5276 /* 19.删除链表的倒数第N个节点.swift */,
+				3F4B2A4F274504D600FD5276 /* 面试题 02.07. 链表相交.swift */,
+				3F4B2A5127450AF800FD5276 /* 142. 环形链表 II.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -225,7 +240,9 @@
 				2D80DC2E26E1210D0058EEA1 /* main.swift in Sources */,
 				3F236FF926F35963006D1BCE /* 有序数组合并.swift in Sources */,
 				3F026A02273A62B500248FF4 /* 27. 移除元素.swift in Sources */,
+				3F4B2A5227450AF800FD5276 /* 142. 环形链表 II.swift in Sources */,
 				3F9066702733C071006B3406 /* 17. 电话号码的字母组合.swift in Sources */,
+				3F4B2A4A2744E10500FD5276 /* 删除节点.swift in Sources */,
 				3F23333926F4969D00AA906F /* 第一个只出现一次的字符.swift in Sources */,
 				3F4B2A4827425E2400FD5276 /* 146. LRU 缓存机制.swift in Sources */,
 				3F026A00273A60C500248FF4 /* 704. 二分查找.swift in Sources */,
@@ -234,11 +251,14 @@
 				2D80DC3726E123100058EEA1 /* 226. 翻转二叉树.swift in Sources */,
 				3F90666E27328673006B3406 /* 216. 组合总和 III.swift in Sources */,
 				3F236FF426F1CA38006D1BCE /* 翻转字符串.swift in Sources */,
+				3F4B2A4E2744FC4300FD5276 /* 19.删除链表的倒数第N个节点.swift in Sources */,
 				3F026A04273A70C000248FF4 /* 977.有序数组的平方.swift in Sources */,
 				3F90666C273268F0006B3406 /* 77. 组合.swift in Sources */,
 				2D80DC3526E1214F0058EEA1 /* TreeNode.swift in Sources */,
 				3F236F9F26E8C199006D1BCE /* 5.最长回文子串.swift in Sources */,
 				3F9066742737ED0B006B3406 /* 二叉树中序遍历-迭代.swift in Sources */,
+				3F4B2A4C2744EE1F00FD5276 /* 24. 两两交换链表中的节点.swift in Sources */,
+				3F4B2A50274504D700FD5276 /* 面试题 02.07. 链表相交.swift in Sources */,
 				3F23333D26F4B39F00AA906F /* 查找两个子视图的共同父视图.swift in Sources */,
 				3F236F9B26E76F0B006D1BCE /* ListNode.swift in Sources */,
 			);

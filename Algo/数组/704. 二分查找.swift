@@ -32,4 +32,26 @@ class Search {
         
         return -1
     }
+    
+    func search2(_ nums: [Int], _ target: Int) -> Int {
+        
+        /// 左闭右开
+        var left = 0
+        var right = nums.count
+        
+        while left < right {
+            
+            let mid = left + (right - left) / 2
+            
+            if nums[mid] < target {
+                left = mid + 1
+            } else if nums[mid] > target {
+                right = mid
+            } else {
+                return mid
+            }
+        }
+
+        return -1
+    }
 }
