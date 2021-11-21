@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D28481327415E65004421B4 /* 123.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28481227415E65004421B4 /* 123.swift */; };
+		2D28481527416918004421B4 /* 209. 长度最小的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28481427416918004421B4 /* 209. 长度最小的子数组.swift */; };
+		2D28481727416DD1004421B4 /* 59. 螺旋矩阵 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28481627416DD1004421B4 /* 59. 螺旋矩阵 II.swift */; };
+		2D2848192742C2C4004421B4 /* 二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2848182742C2C4004421B4 /* 二分查找.swift */; };
+		2D28481B2742CD33004421B4 /* 707. 设计链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28481A2742CD33004421B4 /* 707. 设计链表.swift */; };
+		2D28485E27456259004421B4 /* 242.有效的字母异位词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28485D27456259004421B4 /* 242.有效的字母异位词.swift */; };
+		2D284860274567A8004421B4 /* 349. 两个数组的交集.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28485F274567A8004421B4 /* 349. 两个数组的交集.swift */; };
+		2D28486227456C43004421B4 /* 202. 快乐数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28486127456C43004421B4 /* 202. 快乐数.swift */; };
+		2D28486427457460004421B4 /* 两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28486327457460004421B4 /* 两数之和.swift */; };
 		2D80DC2E26E1210D0058EEA1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D80DC2D26E1210D0058EEA1 /* main.swift */; };
 		2D80DC3526E1214F0058EEA1 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D80DC3426E1214F0058EEA1 /* TreeNode.swift */; };
 		2D80DC3726E123100058EEA1 /* 226. 翻转二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D80DC3626E123100058EEA1 /* 226. 翻转二叉树.swift */; };
@@ -27,6 +36,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2D28481227415E65004421B4 /* 123.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 123.swift; sourceTree = "<group>"; };
+		2D28481427416918004421B4 /* 209. 长度最小的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "209. 长度最小的子数组.swift"; sourceTree = "<group>"; };
+		2D28481627416DD1004421B4 /* 59. 螺旋矩阵 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "59. 螺旋矩阵 II.swift"; sourceTree = "<group>"; };
+		2D2848182742C2C4004421B4 /* 二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "二分查找.swift"; sourceTree = "<group>"; };
+		2D28481A2742CD33004421B4 /* 707. 设计链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "707. 设计链表.swift"; sourceTree = "<group>"; };
+		2D28485D27456259004421B4 /* 242.有效的字母异位词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242.有效的字母异位词.swift"; sourceTree = "<group>"; };
+		2D28485F274567A8004421B4 /* 349. 两个数组的交集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "349. 两个数组的交集.swift"; sourceTree = "<group>"; };
+		2D28486127456C43004421B4 /* 202. 快乐数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "202. 快乐数.swift"; sourceTree = "<group>"; };
+		2D28486327457460004421B4 /* 两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "两数之和.swift"; sourceTree = "<group>"; };
 		2D80DC2A26E1210D0058EEA1 /* Algo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algo; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D80DC2D26E1210D0058EEA1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2D80DC3426E1214F0058EEA1 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -46,6 +64,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D28481127415D67004421B4 /* Mac16 */ = {
+			isa = PBXGroup;
+			children = (
+				2D28481227415E65004421B4 /* 123.swift */,
+				2D28481427416918004421B4 /* 209. 长度最小的子数组.swift */,
+				2D28481627416DD1004421B4 /* 59. 螺旋矩阵 II.swift */,
+				2D2848182742C2C4004421B4 /* 二分查找.swift */,
+				2D28481A2742CD33004421B4 /* 707. 设计链表.swift */,
+			);
+			path = Mac16;
+			sourceTree = "<group>";
+		};
+		2D28485C27456234004421B4 /* 哈希表 */ = {
+			isa = PBXGroup;
+			children = (
+				2D28485D27456259004421B4 /* 242.有效的字母异位词.swift */,
+				2D28485F274567A8004421B4 /* 349. 两个数组的交集.swift */,
+				2D28486127456C43004421B4 /* 202. 快乐数.swift */,
+				2D28486327457460004421B4 /* 两数之和.swift */,
+			);
+			path = "哈希表";
+			sourceTree = "<group>";
+		};
 		2D80DC2126E1210D0058EEA1 = {
 			isa = PBXGroup;
 			children = (
@@ -65,9 +106,11 @@
 		2D80DC2C26E1210D0058EEA1 /* Algo */ = {
 			isa = PBXGroup;
 			children = (
+				2D28485C27456234004421B4 /* 哈希表 */,
 				2D80DC2D26E1210D0058EEA1 /* main.swift */,
 				3F236F9926E76E96006D1BCE /* 链表 */,
 				2D80DC3826E123BF0058EEA1 /* 二叉树 */,
+				2D28481127415D67004421B4 /* Mac16 */,
 			);
 			path = Algo;
 			sourceTree = "<group>";
@@ -149,10 +192,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D80DC2E26E1210D0058EEA1 /* main.swift in Sources */,
+				2D28485E27456259004421B4 /* 242.有效的字母异位词.swift in Sources */,
 				3F236F9D26E770B8006D1BCE /* 206.翻转链表.swift in Sources */,
+				2D284860274567A8004421B4 /* 349. 两个数组的交集.swift in Sources */,
+				2D28486227456C43004421B4 /* 202. 快乐数.swift in Sources */,
 				2D80DC3726E123100058EEA1 /* 226. 翻转二叉树.swift in Sources */,
 				2D80DC3526E1214F0058EEA1 /* TreeNode.swift in Sources */,
+				2D28481527416918004421B4 /* 209. 长度最小的子数组.swift in Sources */,
+				2D28486427457460004421B4 /* 两数之和.swift in Sources */,
+				2D2848192742C2C4004421B4 /* 二分查找.swift in Sources */,
+				2D28481727416DD1004421B4 /* 59. 螺旋矩阵 II.swift in Sources */,
+				2D28481327415E65004421B4 /* 123.swift in Sources */,
 				3F236F9B26E76F0B006D1BCE /* ListNode.swift in Sources */,
+				2D28481B2742CD33004421B4 /* 707. 设计链表.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -263,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -278,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8R52ESXJN;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -289,6 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8R52ESXJN;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

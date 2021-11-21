@@ -10,3 +10,4 @@ import Foundation
 
 print("Hello, World!")
 
+print(MinSubArrayLen().minSubArrayLen(7, [2,3,1,2,4,3]))
