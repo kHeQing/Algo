@@ -8,46 +8,45 @@
 
 class 翻转链表 {
     
-    // 迭代方法
     func reverseList(_ head: ListNode?) -> ListNode? {
         
-        guard let head = head else { return nil }
-        
-        // 前节点
+        guard let head = head else {
+            return nil
+        }
+
         var pre: ListNode? = nil
-        // 当前节点
-        var current: ListNode? = head
-        // 临时节点
-        var temp: ListNode? = nil
+        var cur: ListNode? = head
         
-        while current != nil {
-            // 临时节点，暂存当前节点的下一个节点，用于后移
-            temp = current?.next
-            // 将当前节点的next 指向前节点
-            current?.next = pre
-            // 前节点后移
-            pre = current
-            // 当前节点后移
-            current = temp
+        while cur != nil {
+            let temp = cur?.next // 保存一下 cur的下一个节点，因为接下来要改变cur->next
+            cur?.next = pre // 翻转操作
+            pre = cur // 更新pre 和 cur指针
+            cur = temp
         }
         
         return pre
     }
     
-    // 递归方法
     func reverseList2(_ head: ListNode?) -> ListNode? {
+        // 和双指针法初始化是一样的逻辑
+//        var pre: ListNode? = nil
+//        var cur: ListNode? = head
         return reverse(nil, head)
     }
     
-    func reverse(_ pre: ListNode?, _ current: ListNode?) -> ListNode? {
+    func reverse(_ pre: ListNode?, _ cur: ListNode?) -> ListNode? {
         
-        guard let current = current else {
+        guard let cur = cur else {
             return pre
         }
-        
-        let next = current.next
-        current.next = pre
-        
-        return reverse(current, next)
+
+        let temp = cur.next
+        cur.next = pre
+        // 可以和双指针法的代码进行对比，如下递归的写法，其实就是做了这两步
+//        pre = cur
+//        cur = temp
+//        return reverse(pre, cur)
+        return reverse(cur, temp)
     }
+    
 }
