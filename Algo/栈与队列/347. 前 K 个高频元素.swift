@@ -11,9 +11,23 @@ import Foundation
 class 前K个高频元素 {
     
     func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {
-        return nums.reduce(into: [:]) { (parames, number) in
-            parames[number,default: 0] += 1
-        }.sorted(by: {$0.value > $1.value}).prefix(k).map{$0.key}
+        // [1,1,1,2,2,3]
+        // [1:3,2:2,3:1]
+        var map = [Int: Int]()
+        for num in nums {
+            map[num, default: 0] += 1
+        }
+        // [[3],[2],[1],[],[],[]]
+        var freqArr = Array(repeating: [Int](), count: nums.count)
+        for (key, value) in map {
+            freqArr[value - 1].append(key)
+        }
+        // [3,2,1]
+        var res = [Int]()
+        for arr in freqArr {
+            res += arr
+        }
+        return Array(res.reversed()[0 ..< k])
     }
     
 }

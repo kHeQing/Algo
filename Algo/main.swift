@@ -11,8 +11,9 @@ import Foundation
 print("Hello, World!")
 
 
-
-print(逆波兰表达式求值().evalRPN(["4","13","5","/","+"]))
+var aa = [3,7,1,2,9,5,7,10]
+QuickSort().quickSort(&aa)
+print(aa)
 
 
 

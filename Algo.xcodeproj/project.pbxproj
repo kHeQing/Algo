@@ -12,6 +12,7 @@
 		2D2246F32753D9BF003E422C /* 150. 逆波兰表达式求值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2246F22753D9BF003E422C /* 150. 逆波兰表达式求值.swift */; };
 		2D2246F52753DFFD003E422C /* 239. 滑动窗口最大值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2246F42753DFFD003E422C /* 239. 滑动窗口最大值.swift */; };
 		2D2246F72753F109003E422C /* 347. 前 K 个高频元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2246F62753F109003E422C /* 347. 前 K 个高频元素.swift */; };
+		2D2246FA27552035003E422C /* 快速排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2246F927552035003E422C /* 快速排序.swift */; };
 		2D28481327415E65004421B4 /* 123.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28481227415E65004421B4 /* 123.swift */; };
 		2D28481527416918004421B4 /* 209. 长度最小的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28481427416918004421B4 /* 209. 长度最小的子数组.swift */; };
 		2D28481727416DD1004421B4 /* 59. 螺旋矩阵 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28481627416DD1004421B4 /* 59. 螺旋矩阵 II.swift */; };
@@ -65,6 +66,7 @@
 		2D2246F22753D9BF003E422C /* 150. 逆波兰表达式求值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "150. 逆波兰表达式求值.swift"; sourceTree = "<group>"; };
 		2D2246F42753DFFD003E422C /* 239. 滑动窗口最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239. 滑动窗口最大值.swift"; sourceTree = "<group>"; };
 		2D2246F62753F109003E422C /* 347. 前 K 个高频元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "347. 前 K 个高频元素.swift"; sourceTree = "<group>"; };
+		2D2246F927552035003E422C /* 快速排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "快速排序.swift"; sourceTree = "<group>"; };
 		2D28481227415E65004421B4 /* 123.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 123.swift; sourceTree = "<group>"; };
 		2D28481427416918004421B4 /* 209. 长度最小的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "209. 长度最小的子数组.swift"; sourceTree = "<group>"; };
 		2D28481627416DD1004421B4 /* 59. 螺旋矩阵 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "59. 螺旋矩阵 II.swift"; sourceTree = "<group>"; };
@@ -124,6 +126,14 @@
 			path = "栈与队列";
 			sourceTree = "<group>";
 		};
+		2D2246F82755201F003E422C /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				2D2246F927552035003E422C /* 快速排序.swift */,
+			);
+			path = "排序";
+			sourceTree = "<group>";
+		};
 		2D28481127415D67004421B4 /* Mac16 */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +176,7 @@
 		2D80DC2C26E1210D0058EEA1 /* Algo */ = {
 			isa = PBXGroup;
 			children = (
+				2D2246F82755201F003E422C /* 排序 */,
 				2D2246ED2753D470003E422C /* 栈与队列 */,
 				2D28485C27456234004421B4 /* 哈希表 */,
 				2D80DC2D26E1210D0058EEA1 /* main.swift */,
@@ -319,6 +330,7 @@
 				2D2246F32753D9BF003E422C /* 150. 逆波兰表达式求值.swift in Sources */,
 				3F026A00273A60C500248FF4 /* 704. 二分查找.swift in Sources */,
 				3F236F9D26E770B8006D1BCE /* 206.翻转链表.swift in Sources */,
+				2D2246FA27552035003E422C /* 快速排序.swift in Sources */,
 				2D2246F72753F109003E422C /* 347. 前 K 个高频元素.swift in Sources */,
 				3F9066722733CF03006B3406 /* 93. 复原 IP 地址.swift in Sources */,
 				2D80DC3726E123100058EEA1 /* 226. 翻转二叉树.swift in Sources */,
