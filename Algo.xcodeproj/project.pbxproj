@@ -28,6 +28,7 @@
 		3F026A00273A60C500248FF4 /* 704. 二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0269FF273A60C400248FF4 /* 704. 二分查找.swift */; };
 		3F026A02273A62B500248FF4 /* 27. 移除元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026A01273A62B500248FF4 /* 27. 移除元素.swift */; };
 		3F026A04273A70C000248FF4 /* 977.有序数组的平方.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026A03273A70C000248FF4 /* 977.有序数组的平方.swift */; };
+		3F11D332276211DA00FF424C /* 209. 长度最小的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11D331276211DA00FF424C /* 209. 长度最小的子数组.swift */; };
 		3F23333926F4969D00AA906F /* 第一个只出现一次的字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23333826F4969D00AA906F /* 第一个只出现一次的字符.swift */; };
 		3F23333D26F4B39F00AA906F /* 查找两个子视图的共同父视图.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23333C26F4B39F00AA906F /* 查找两个子视图的共同父视图.swift */; };
 		3F236F9B26E76F0B006D1BCE /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F236F9A26E76F0B006D1BCE /* ListNode.swift */; };
@@ -84,6 +85,7 @@
 		3F0269FF273A60C400248FF4 /* 704. 二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "704. 二分查找.swift"; sourceTree = "<group>"; };
 		3F026A01273A62B500248FF4 /* 27. 移除元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27. 移除元素.swift"; sourceTree = "<group>"; };
 		3F026A03273A70C000248FF4 /* 977.有序数组的平方.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "977.有序数组的平方.swift"; sourceTree = "<group>"; };
+		3F11D331276211DA00FF424C /* 209. 长度最小的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "209. 长度最小的子数组.swift"; sourceTree = "<group>"; };
 		3F23333826F4969D00AA906F /* 第一个只出现一次的字符.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "第一个只出现一次的字符.swift"; sourceTree = "<group>"; };
 		3F23333C26F4B39F00AA906F /* 查找两个子视图的共同父视图.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "查找两个子视图的共同父视图.swift"; sourceTree = "<group>"; };
 		3F236F9A26E76F0B006D1BCE /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				3F0269FF273A60C400248FF4 /* 704. 二分查找.swift */,
 				3F026A01273A62B500248FF4 /* 27. 移除元素.swift */,
 				3F026A03273A70C000248FF4 /* 977.有序数组的平方.swift */,
+				3F11D331276211DA00FF424C /* 209. 长度最小的子数组.swift */,
 			);
 			path = "数组";
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				3F4B2A4C2744EE1F00FD5276 /* 24. 两两交换链表中的节点.swift in Sources */,
 				3F4B2A50274504D700FD5276 /* 面试题 02.07. 链表相交.swift in Sources */,
 				3F23333D26F4B39F00AA906F /* 查找两个子视图的共同父视图.swift in Sources */,
+				3F11D332276211DA00FF424C /* 209. 长度最小的子数组.swift in Sources */,
 				3F236F9B26E76F0B006D1BCE /* ListNode.swift in Sources */,
 				2D28481B2742CD33004421B4 /* 707. 设计链表.swift in Sources */,
 			);
