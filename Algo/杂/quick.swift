@@ -19,12 +19,12 @@ class Quick {
             return
         }
         
-        let povit = povit(&arr, begin, end)
+        let povit = povitVal(&arr, begin, end)
         quickSort(&arr, begin, povit)
         quickSort(&arr, povit + 1, end)
     }
     
-    func povit(_ arr: inout [Int], _ begin: Int, _ end: Int) -> Int {
+    func povitVal(_ arr: inout [Int], _ begin: Int, _ end: Int) -> Int {
         
         var begin = begin
         var end = end

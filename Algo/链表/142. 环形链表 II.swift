@@ -81,7 +81,7 @@ class Solution2 {
 }
 
 // 翻转字符串中单词 移除前后和中间多余空格
-class Solution3 {
+class Solution33 {
     func reverseWords(_ s: String) -> String {
         // 1.
         var array = removeSpace(s)

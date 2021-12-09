@@ -20,8 +20,8 @@ class RemoveNthFromEnd{
             return head
         }
         
-        let dummy: ListNode? = ListNode()
-        dummy?.next = head
+        let dummy = ListNode()
+        dummy.next = head
         
         var slow: ListNode? = dummy
         var fast: ListNode? = dummy
@@ -36,6 +36,6 @@ class RemoveNthFromEnd{
         }
         
         slow?.next = slow?.next?.next
-        return dummy?.next
+        return dummy.next
     }
 }
