@@ -11,10 +11,8 @@ import Foundation
 class QuickSort {
     
     func quickSort(_ array: inout [Int]) {
-        
         sort(&array, 0, array.count)
     }
-    
     func sort(_ array: inout [Int], _ begin: Int, _ end: Int) {
         
         if end - begin < 2 { // 至少两个元素
@@ -27,10 +25,7 @@ class QuickSort {
         sort(&array, mid+1, end)
         
     }
-    
     func pivotIndex(_ array: inout [Int], _ begin: Int, _ end: Int) -> Int {
-        
-        
         // 备份begin位置的元素
         let pivot = array[begin]
         

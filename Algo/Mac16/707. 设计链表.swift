@@ -109,3 +109,44 @@ class MyLinkedList {
         
     }
 }
+
+class Solution3 {
+    func strToInt(_ str: String) -> Int {
+        
+        if str.count <= 0 {
+            return 0
+        }
+        let arr: [Character] = Array(str)
+        var i = 0
+        var tag = 1
+        var res = 0
+        // 1. 去除前面空格
+        while arr[i] == " " {
+            if i == arr.count - 1 {
+                return 0
+            }
+            i += 1
+        }
+        // 2. 判断负号替换标识
+        if arr[i] == "-" {
+            tag = -1
+        }
+        // 3. 去除符号位
+        if arr[i] == "-" || arr[i] == "+" {
+            i += 1
+        }
+        
+        while i < arr.count && arr[i].isNumber {
+            
+            let val = Int(String(arr[i]))!
+            res = res * 10 + val
+            
+            if res > Int(Int32.max) {
+                return tag == 1 ? Int(Int32.max) : Int(Int32.min)
+            }
+            
+            i += 1
+        }
+        return res * tag
+    }
+}
