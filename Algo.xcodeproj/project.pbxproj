@@ -31,6 +31,7 @@
 		3F9066702733C071006B3406 /* 17. 电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90666F2733C070006B3406 /* 17. 电话号码的字母组合.swift */; };
 		3F9066722733CF03006B3406 /* 93. 复原 IP 地址.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9066712733CF03006B3406 /* 93. 复原 IP 地址.swift */; };
 		3F9066742737ED0B006B3406 /* 二叉树中序遍历-迭代.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9066732737ED0A006B3406 /* 二叉树中序遍历-迭代.swift */; };
+		3FE05F0B275A12D200ED3908 /* quick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE05F0A275A12D200ED3908 /* quick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +72,7 @@
 		3F90666F2733C070006B3406 /* 17. 电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17. 电话号码的字母组合.swift"; sourceTree = "<group>"; };
 		3F9066712733CF03006B3406 /* 93. 复原 IP 地址.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "93. 复原 IP 地址.swift"; sourceTree = "<group>"; };
 		3F9066732737ED0A006B3406 /* 二叉树中序遍历-迭代.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "二叉树中序遍历-迭代.swift"; sourceTree = "<group>"; };
+		3FE05F0A275A12D200ED3908 /* quick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				3F4B2A4727425E2300FD5276 /* 146. LRU 缓存机制.swift */,
+				3FE05F0A275A12D200ED3908 /* quick.swift */,
 			);
 			path = "杂";
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				3F236F9D26E770B8006D1BCE /* 206.翻转链表.swift in Sources */,
 				3F9066722733CF03006B3406 /* 93. 复原 IP 地址.swift in Sources */,
 				2D80DC3726E123100058EEA1 /* 226. 翻转二叉树.swift in Sources */,
+				3FE05F0B275A12D200ED3908 /* quick.swift in Sources */,
 				3F90666E27328673006B3406 /* 216. 组合总和 III.swift in Sources */,
 				3F236FF426F1CA38006D1BCE /* 翻转字符串.swift in Sources */,
 				3F4B2A4E2744FC4300FD5276 /* 19.删除链表的倒数第N个节点.swift in Sources */,
