@@ -18,7 +18,7 @@ class SortedSquares {
         var result = [Int](repeating: 0, count: nums.count)
         var index = result.count - 1
         
-        while index > 0 {
+        while index >= 0 {
             
             let squareLeft = nums[left] * nums[left]
             let squareRight = nums[right] * nums[right]

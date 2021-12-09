@@ -10,12 +10,27 @@ import Foundation
 
 print("Hello, World!")
 
+var arr = [6,3,9,2,10,4]
+Quick().quick(&arr)
+print(arr)
 
-var aa = [3,7,1,2,9,5,7,10]
-QuickSort().quickSort(&aa)
-print(aa)
 
-
+//func maxLength ( _ arr: [Int]) -> Int {
+//    guard arr.count > 2 else {
+//        return arr.count
+//    }
+//    var windows = [Int: Int]()
+//    var res = 0
+//    var l = -1
+//    for r in 0..<arr.count {
+//        if (windows.keys.contains(arr[r])) {
+//            l = max(l, windows[arr[r]]!)
+//        }
+//        res = max(res, r-l)
+//        windows[arr[r]] = r
+//    }
+//    return res
+//}
 
 //class Solutionq {
 //    func generateMatrix(_ n: Int) -> [[Int]] {
@@ -70,4 +85,3 @@ print(aa)
 //}
 //
 //print(Solutionq().generateMatrix(3))
-
