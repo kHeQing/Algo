@@ -6,6 +6,7 @@
 //  Copyright © 2021 hq. All rights reserved.
 //
 
+// 二叉树Node
 public class TreeNode {
     public var val: Int
     public var left: TreeNode?
@@ -16,5 +17,15 @@ public class TreeNode {
         self.val = val
         self.left = left
         self.right = right
+    }
+}
+
+// 多叉树Node
+public class Node {
+    public var val: Int
+    public var children: [Node]
+    public init(_ val: Int) {
+        self.val = val
+        self.children = []
     }
 }
