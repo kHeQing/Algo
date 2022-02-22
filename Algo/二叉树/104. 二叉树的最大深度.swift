@@ -12,7 +12,7 @@ class MaxDepth {
     
     // 递归 后序遍历
     func maxDepth(_ root: TreeNode?) -> Int {
-            return getDepth(root)
+        return getDepth(root)
     }
 
     // 后序遍历 求高度 == 求深度
