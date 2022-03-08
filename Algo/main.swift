@@ -10,9 +10,11 @@ import Foundation
 
 print("Hello, World!")
 
-//var arr = [6,3,9,2,10,4]
-//Quick().quick(&arr)
-//print(arr)
+var arr = [6,3,9,2,10,4]
+//var arr = [2, 3, 4, 6, 9, 10]
+
+SelectionSort().selectionSort(&arr)
+print(arr)
 
 
 //func maxLength ( _ arr: [Int]) -> Int {
